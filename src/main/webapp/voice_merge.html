@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>语音合成</title>
+    <link rel="stylesheet" type="text/css" href="css/voice_merge.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/voice_merge.js"></script>
+</head>
+<body>
+<div class="box">
+    <!--head-->
+    <div class="head">
+        <p>语音合成</p>
+    </div>
+    <!--情感分析主体区域-->
+    <div class="content">
+        <textarea class="text" placeholder="请输入要合成的内容..."></textarea>
+        <p>语音合成配置</p>
+        <div class="option">
+            <div>
+                <span>音速:</span>
+                <input type="range" max="9" min="0" value="5" class="spd input">
+                <a id="spd">5</a>
+            </div>
+            <div>
+                <span>音调:</span>
+                <input type="range" max="9" min="0" value=5 class="pit input">
+                <a id="pit">5</a>
+            </div>
+            <div>
+                <span>音量:</span>
+                <input type="range" max="15" min="0" value="5" class="vol input">
+                <a id="vol">5</a>
+            </div>
+            <div>
+                <span>发音人:</span>
+                <select class="per input">
+                    <option value="0" selected>度小美</option>
+                    <option value="1">度小宇</option>
+                    <option value="3">度逍遥(基础)</option>
+                    <option value="4">度丫丫</option>
+                    <option value="5003">度逍遥(精品)</option>
+                    <option value="5118">度小鹿</option>
+                    <option value="106">度博文</option>
+                    <option value="110">度小童</option>
+                    <option value="111">度小萌</option>
+                    <option value="103">度米朵</option>
+                    <option value="5">度小娇</option>
+                </select>
+            </div>
+
+        </div>
+        <button type="submit" class="btn">语音合成</button>
+    </div>
+    <!--结果展示-->
+    <div class="show_result">
+        <div>
+            <audio id="audio" controls="controls" autoplay/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

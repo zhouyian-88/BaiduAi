@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>评论观点抽取</title>
+  <link rel="stylesheet" type="text/css" href="css/point_extraction.css">
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/point_extraction.js"></script>
+</head>
+<body>
+<div class="box">
+  <!--head-->
+  <div class="head">
+    <p>评论观点抽取</p>
+  </div>
+  <!--情感分析主体区域-->
+  <div class="content">
+    <textarea class="text" placeholder="请输入提取的评论..."></textarea>
+    <p>评论观点抽取配置</p>
+    <div class="option">
+      <div>
+        <span>评论行业类型:</span>
+        <select class="input">
+          <option value="1">酒店</option>
+          <option value="2">KTV</option>
+          <option value="3">丽人</option>
+          <option value="4" selected>美食餐饮</option>
+          <option value="5">旅游</option>
+          <option value="6">健康</option>
+          <option value="7">教育</option>
+          <option value="8">商业</option>
+          <option value="9">房产</option>
+          <option value="10">汽车</option>
+          <option value="11">生活</option>
+          <option value="12">购物</option>
+          <option value="13">3C</option>
+        </select>
+      </div>
+
+    </div>
+    <button type="submit" class="btn">评论观点抽取</button>
+  </div>
+  <!--结果展示-->
+  <div class="show_result">
+  </div>
+</div>
+</body>
+</html>

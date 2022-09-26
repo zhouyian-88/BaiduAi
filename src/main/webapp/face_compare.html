@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>人脸检测</title>
+  <link rel="stylesheet" type="text/css" href="css/face_compare.css">
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/face_compare.js"></script>
+</head>
+
+<body>
+<div class="box">
+  <!--头-->
+  <div class="head">
+    <p>人脸检测</p>
+  </div>
+  <!--主体区域-->
+  <div class="content">
+    <div class="content_id">
+      <img src="img/girl.jpg" class="prev_photo1">
+      <img src="img/girl.jpg" class="prev_photo2">
+    </div>
+    <form method="post" class="form" enctype="multipart/form-data">
+      <div>
+        <input type="file" name="manypic" multiple class="file_input">
+        <a class="content_btn">选择照片</a>
+      </div>
+    <!--  <div>
+        <p>人脸检测配置选项:</p>
+      </div>
+
+      <div class="option">
+        <div>年龄:<input type="checkbox" name="radio" value="age" class="checkbox_ipt"></div>
+        <div>颜值:<input type="checkbox" name="radio" value="beauty" class="checkbox_ipt"></div>
+        <div>表情:<input type="checkbox" name="radio" value="expression" class="checkbox_ipt"></div>
+        <div>脸型:<input type="checkbox" name="radio" value="face_shape" class="checkbox_ipt"></div>
+        <div>性别:<input type="checkbox" name="radio" value="gender" class="checkbox_ipt"></div>
+        <div>眼镜:<input type="checkbox" name="radio" value="glasses" class="checkbox_ipt"></div>
+        <div>质量:<input type="checkbox" name="radio" value="quality" class="checkbox_ipt"></div>
+        <div>双眼状态:<input type="checkbox" name="radio" value="eye_status" class="checkbox_ipt"></div>
+        <div>情绪:<input type="checkbox" name="radio" value="emotion" class="checkbox_ipt"></div>
+        <div>真假脸:<input type="checkbox" name="radio" value="face_type" class="checkbox_ipt"></div>
+      </div>
+-->
+    </form>
+    <button type="submit" class="btn">开始检测</button>
+  </div>
+  <!--结果展示-->
+  <div class="show_result">
+    <!--<div class="bottom_div"><p class="left_p">省份:</p><span class="right_span">江西省</span></div>
+    <div class="bottom_div"><p class="left_p">城市:</p><span class="right_span">吉安市</span></div>
+    <div class="bottom_div"><p class="left_p">区:</p><span class="right_span">xxxx</span></div>
+    <div class="bottom_div"><p class="left_p">乡镇:</p><span class="right_span">拿山镇</span></div>
+    <div class="bottom_div"><p class="left_p">姓名:</p><span class="right_span">周奕安</span></div>
+    <div class="bottom_div"><p class="left_p">详细地址:</p><span class="right_span">江西软件职业技术大学井冈山数字经济学院</span></div>
+    <div class="bottom_div"><p class="left_p">电话号码:</p><span class="right_span">134xxxxxxxxx</span></div>
+    <div class="bottom_div"><p class="left_p">省国标:</p><span class="right_span">xxxxxx</span></div>
+    <div class="bottom_div"><p class="left_p">城市国标:</p><span class="right_span">xxxx</span></div>
+    <div class="bottom_div"><p class="left_p">区县国标:</p><span class="right_span">xxxx</span></div>
+    <div class="bottom_div"><p class="left_p">乡镇国标:</p><span class="right_span">xxxx</span></div>-->
+
+  </div>
+</div>
+
+</body>
+</html>

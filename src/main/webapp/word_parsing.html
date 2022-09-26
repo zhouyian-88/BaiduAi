@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>依存句法分析</title>
+  <link rel="stylesheet" type="text/css" href="css/word_parsing.css">
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/word_parsing.js"></script>
+</head>
+<body>
+<div class="box">
+  <!--head-->
+  <div class="head">
+    <p>依存句法分析</p>
+  </div>
+  <!--依存句法分析主体区域-->
+  <div class="content">
+    <textarea class="text" placeholder="请输入待分析文本..."></textarea>
+    <p>依存句法分析配置</p>
+    <div class="option">
+      <div>
+        <span>模型选择:</span>
+        <select class="per input">
+          <option value="0" selected>web</option>
+          <option value="1">query</option>
+        </select>
+      </div>
+    </div>
+    <button type="submit" class="btn">依存句法分析</button>
+  </div>
+  <!--结果展示-->
+  <div class="show_result">
+  </div>
+</div>
+</body>
+</html>

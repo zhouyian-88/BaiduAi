@@ -1,0 +1,138 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-width: 100;
+    font-family: "Microsoft PhagsPa";
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.head p{
+    color: white;
+    font-weight: 300;
+    font-size: xx-large;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content img{
+    width: 90%;
+    height: 500px;
+    text-align:center;
+    border-color: black;
+    margin: 20px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file_input{
+    display: none;
+}
+.form a{
+    width: 300px;
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    background-color: dodgerblue;
+    text-align: center;
+    border: 1px solid black;
+    margin:20px;
+    margin-bottom: 10px;
+}
+.content p{
+    font-weight: 400;
+    font-size: 25px;
+    margin:15px;
+    display: flex;
+    margin-right: 70%;
+    /*border:1px solid red;*/
+}
+.option{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.option span{
+    font-weight: 400;
+    font-size: 25px;
+}
+.option a{
+    font-weight: 400;
+    font-size: 25px;
+}
+.option input{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+}
+.option select{
+    width: 325px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btn{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+.show_result{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    /*border:1px solid red;*/
+}
+.show_result img{
+    width: 70%;
+    height: 500px;
+    text-align:center;
+    border-color: black;
+    margin: 20px;
+
+}
+

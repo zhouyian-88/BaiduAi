@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>分格转换</title>
+  <link rel="stylesheet" type="text/css" href="css/style_translation.css">
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/style_translation.js"></script>
+</head>
+
+<body>
+<div class="box">
+  <!--头-->
+  <div class="head">
+    <p>分格转换</p>
+  </div>
+  <!--主体区域-->
+  <div class="content">
+    <img src="img/girl.jpg" class="prev_photo">
+    <form method="post" class="form" enctype="multipart/form-data">
+      <div>
+        <input type="file" name="file" class="file_input">
+        <a class="content_btn">选择照片</a>
+      </div>
+    </form>
+    <p>分格转换配置</p>
+    <div class="option">
+      <div>
+        <span>图像风格:</span>
+        <select class="input">
+          <option value="cartoon" selected>卡通画风格</option>
+          <option value="pencil">铅笔风格</option>
+          <option value="color_pencil">彩色铅笔画风格</option>
+          <option value="warm">彩色糖块油画风格</option>
+          <option value="wave">神奈川冲浪里油画风格</option>
+          <option value="lavender">薰衣草油画风格</option>
+          <option value="mononoke">奇异油画风格</option>
+          <option value="scream">呐喊油画风格</option>
+          <option value="gothic">哥特油画风格</option>
+        </select>
+      </div>
+
+    </div>
+
+    <button type="submit" class="btn">分格转换</button>
+  </div>
+  <!--结果展示-->
+  <div class="show_result">
+   <img class="show_photo" src="img/girl.jpg"/>
+
+  </div>
+</div>
+
+</body>
+</html>
